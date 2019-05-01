@@ -19,5 +19,9 @@
     "eslint-plugin-vue": "^5.0.0",
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/focux/long-press-vue"
   }
 }
