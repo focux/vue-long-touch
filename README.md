@@ -1,29 +1,51 @@
-# vue-long-press
+# long-press-vue
 
-## Project setup
-```
-npm install
-```
+[![npm](https://img.shields.io/npm/v/long-press-vue.svg) ![npm](https://img.shields.io/npm/dm/long-press-vue.svg)](https://www.npmjs.com/package/long-press-vue)
+[![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Detect when an element is becoming visible or hidden on the page.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+[Demo]()
 
-### Run your tests
-```
-npm run test
-```
 
-### Lints and fixes files
+<br>
+
+## Table of contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Example](#example)
+
+# Installation
+
 ```
-npm run lint
+npm install --save long-press-vue
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Import
+
+```javascript
+import Vue from 'vue'
+import LongPress from 'long-press-vue';
+
+Vue.use(LongPress)
+```
+
+# Usage
+
+```html
+
+```
+
+
+# Example
+
+```html
+
+```
+
+---
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
