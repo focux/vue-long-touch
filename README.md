@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/long-press-vue.svg) ![npm](https://img.shields.io/npm/dm/long-press-vue.svg)](https://www.npmjs.com/package/long-press-vue)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
-Detect when an element is pressed for X ms. (Mobile)
+Detect when an element has been pressed for X ms. This is just for touch devices due that we are using touch events.
 
 [Demo]()
 
