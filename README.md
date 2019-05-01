@@ -1,9 +1,9 @@
-# long-press-vue
+# long-touch-vue
 
-[![npm](https://img.shields.io/npm/v/long-press-vue.svg) ![npm](https://img.shields.io/npm/dm/long-press-vue.svg)](https://www.npmjs.com/package/long-press-vue)
+[![npm](https://img.shields.io/npm/v/long-touch-vue.svg) ![npm](https://img.shields.io/npm/dm/long-touch-vue.svg)](https://www.npmjs.com/package/long-touch-vue)
 [![vue2](https://img.shields.io/badge/vue-2.x-brightgreen.svg)](https://vuejs.org/)
 
-Detect when an element is pressed for X ms. (Mobile)
+Detect when an element is touched for X ms.
 
 [Demo]()
 
@@ -19,16 +19,16 @@ Detect when an element is pressed for X ms. (Mobile)
 # Installation
 
 ```
-npm install --save long-press-vue
+npm install --save long-touch-vue
 ```
 
 ## Import
 
 ```javascript
 import Vue from 'vue'
-import LongPress from 'long-press-vue';
+import LongTouch from 'long-touch-vue';
 
-Vue.use(LongPress)
+Vue.use(LongTouch)
 ```
 
 # Usage

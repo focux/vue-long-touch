@@ -1,13 +1,13 @@
 {
-  "name": "long-press-vue",
+  "name": "long-touch-vue",
   "author": "Leonardo Dominguez <focuux@gmail.com>",
   "license": "MIT",
-  "version": "0.1.6",
+  "version": "0.1.1",
   "private": false,
-  "main": "dist/longpressvue.umd.min.js",
+  "main": "dist/longtouchvue.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --entry ./src/index.js --name longpressvue --target lib",
+    "build": "vue-cli-service build --entry ./src/index.js --name longtouchvue --target lib",
     "lint": "vue-cli-service lint"
   },
   "devDependencies": {

@@ -1,7 +1,7 @@
-import LongPress from './directives/LongPress';
+import LongTouch from './directives/LongTouch';
 
 const install = (Vue, { duration = 800 } = {}) => {
-  Vue.directive('long-press', LongPress(duration));
+  Vue.directive('long-touch', LongTouch(duration));
 };
 
 export default {
