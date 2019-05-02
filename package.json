@@ -3,7 +3,7 @@
   "author": "Leonardo Dominguez <focuux@gmail.com>",
   "description": "Detect long touch in any element.",
   "license": "MIT",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": false,
   "main": "dist/longtouchvue.umd.min.js",
   "scripts": {
