@@ -15,22 +15,35 @@ const startLongTouchTimeout = (timeoutMs, cb) => {
   longTouchTimeout = setTimeout(cb, timeoutMs);
 };
 
+const disableSelect = (el) => {
+  if (el) {
+    el.style.webkitUserSelect = 'none';
+    el.style.khtmlUserSelect = 'none';
+    el.style.mozUserSelect = 'none';
+    el.style.msUserSelect = 'none';
+    el.style.userSelect = 'none';
+  }
+};
+
 export default tocuhDuration => ({
   bind: (el, { value }) => {
+    disableSelect(el);
     if (value && typeof value === 'function') {
       // events callbacks
       el._vue_longtouch_ts_cb = (e) => {
-        e.preventDefault();
+        // e.preventDefault();
+        e.stopPropagation();
         startLongTouchTimeout(tocuhDuration, value);
       };
 
       el._vue_longtouch_tm_cb = (e) => {
-        e.preventDefault();
+        // e.preventDefault();
+        e.stopPropagation();
         clearLongTouchTimeout();
       };
 
       el._vue_longtouch_te_cb = (e) => {
-        e.preventDefault();
+        // e.preventDefault();
         clearLongTouchTimeout();
       };
 
