@@ -44,10 +44,10 @@ Vue.use(LongTouch, { duration: 900 })
 
 # Usage
 
-The 1v-long-touch1 directive is very easy to use. Just pass a function as the value:
+The `v-long-touch` directive is very easy to use. Just pass a function as the value:
 
 ```html
-
+<div id="app" v-long-touch="handleLongTouch">
 ```
 
 
