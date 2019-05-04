@@ -59,8 +59,6 @@ The 1v-long-touch1 directive is very easy to use. Just pass a function as the va
 <template>
   <div id="app" v-long-touch="handleLongTouch">
     Long Touch {{times}} times
-    <p>(just work on touch devices)</p>
-    <p>* You can test it using Chrome Developer Console.</p>
   </div>
 </template>
 
